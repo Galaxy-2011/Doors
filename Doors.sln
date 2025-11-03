@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "non-unity", "non-unity", "{B7378F80-0ABB-B71B-EE99-F6F9B2743D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonogameDoors", "non-unity\monogame-doors\MonogameDoors.csproj", "{6D0CE1E1-086E-4581-E166-C9A8DFD7B57C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D0CE1E1-086E-4581-E166-C9A8DFD7B57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0CE1E1-086E-4581-E166-C9A8DFD7B57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0CE1E1-086E-4581-E166-C9A8DFD7B57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0CE1E1-086E-4581-E166-C9A8DFD7B57C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D0CE1E1-086E-4581-E166-C9A8DFD7B57C} = {B7378F80-0ABB-B71B-EE99-F6F9B2743D13}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92F083DD-9A67-4B31-8766-A9457CBA29E1}
+	EndGlobalSection
+EndGlobal
