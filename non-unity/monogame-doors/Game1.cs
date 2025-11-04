@@ -76,6 +76,15 @@ namespace MonogameDoors
             AudioManager.GenerateBeep("screech_beep", 1400f, 0.18f, 0.7f);
             AudioManager.GenerateBeep("ambush_beep", 420f, 0.10f, 0.55f);
             AudioManager.GenerateBeep("figure_scream", 900f, 0.35f, 0.9f);
+            AudioManager.GenerateBeep("eyes_stare", 600f, 0.09f, 0.6f);
+            AudioManager.GenerateBeep("eyes_glare", 1200f, 0.14f, 0.85f);
+            AudioManager.GenerateBeep("timothy_hum", 220f, 0.24f, 0.45f);
+            AudioManager.GenerateBeep("timothy_whisper", 440f, 0.18f, 0.5f);
+            AudioManager.GenerateBeep("glitch_pop", 900f, 0.08f, 0.6f);
+            AudioManager.GenerateBeep("glitch_bite", 700f, 0.12f, 0.75f);
+            AudioManager.GenerateBeep("glitch_buzz", 200f, 0.35f, 0.65f);
+            AudioManager.GenerateBeep("jack_knock", 500f, 0.12f, 0.9f);
+            AudioManager.GenerateBeep("jack_bite", 800f, 0.2f, 1f);
 
             // Initialize texture manager and attempt to load sprites from Assets/Sprites
             TextureManager.Initialize(GraphicsDevice);
@@ -94,6 +103,10 @@ namespace MonogameDoors
             Entities.Add(new ScreechEntity(new Vector2(500, 260)));
             Entities.Add(new AmbushEntity(new Vector2(600, 260)));
             Entities.Add(new FigureEntity(new Vector2(700, 260)));
+            Entities.Add(new EyesEntity(new Vector2(720, 220)));
+            Entities.Add(new TimothyEntity(new Vector2(360, 260)));
+            Entities.Add(new GlitchEntity(new Vector2(520, 220)));
+            Entities.Add(new JackEntity(new Vector2(450, 220)));
 
             // Example items
             Items = new System.Collections.Generic.List<Item>();
